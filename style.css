@@ -1,0 +1,153 @@
+body {
+    background-image: url(images/archi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-family: Lora, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    font-weight: 350;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro {
+	background: #fbf7f0 ;
+	padding: 60px;
+	margin: 40px;
+	box-shadow: 0px, 10px, 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	opacity: .95;
+}
+
+.sport{
+	background: #d9e4dd ;
+	padding: 60px;
+	margin: 40px;
+	box-shadow: 0px, 10px, 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	opacity: .95;
+}
+
+.music{
+	background: #cdc9c3 ;
+	padding: 60px;
+	margin: 40px;
+	box-shadow: 0px, 10px, 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	opacity: .95;
+}
+
+.code{
+	background: white ;
+	padding: 60px;
+	margin: 40px;
+	box-shadow: 0px, 10px, 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	opacity: .95;
+}
+
+.followme{
+	background: #fbf7f0 ;
+	padding: 60px;
+	margin: 40px;
+	box-shadow: 0px, 10px, 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	opacity: .95;
+}
+
+#profilepic {
+	 width:auto;
+	 border-radius: 50%;
+	 border: 2px solid #1C464D;
+	 margin-bottom: 30px;
+	 margin-top: 25px;
+	 justify-content: center;
+}
+
+#carousel {
+	width:800px;
+	height:550px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.carouselcentre {
+	width:100%;
+	display: flex;
+	justify-content: center;
+}
+
+
+h1,h2 {
+	font-family: Oswald, sans-serif;
+	color: #1C464D
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	
+}
+
+a {
+	text-decoration: none;
+	color: #555555 ;
+	transition: color 0.3s ease;
+	text-align: center;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #1C464D;
+}
+
+li {
+	display: inline;
+}
+
+iframe {
+	width: 560px;
+	height: 315px;
+
+}
+
+@media (max-width: 700px) {
+	.container {
+		width: 600px;
+	}
+	iframe {
+	width: auto;
+	height: auto;
+}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+	iframe {
+	width: auto;
+	height: auto;
+}
+}
+
+
+
+
+
+
+
+ 
+
+
+
